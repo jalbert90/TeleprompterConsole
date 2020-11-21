@@ -23,7 +23,7 @@ namespace TeleprompterConsole
 
         private static async Task ShowTeleprompter(TelePrompterConfig config)
         {  
-            var wordChunks = ReadFrom("sampleQuotes.txt");
+            var wordChunks = ReadFrom("sampleQuotes.txt");  // wordChunksOrNull
             foreach (var wordChunk in wordChunks)
             {
                 Console.Write(wordChunk);
